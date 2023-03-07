@@ -12,7 +12,7 @@ struct node
 node *createNode(int val)
 {
     node *ptr;
-    ptr = (node *)malloc(sizeof(node *));
+    ptr = (node *)malloc(sizeof(node ));
 
     ptr->data = val;
     ptr->left = NULL;
